@@ -1,304 +1,296 @@
 {
-  "keys": "/Users/black/unknownServer/config/config.default.js",
-  "middleware": "/Users/black/unknownServer/config/config.default.js",
+  "keys": "/Users/black/Desktop/agricultural/config/config.default.js",
+  "middleware": "/Users/black/Desktop/agricultural/config/config.default.js",
   "news": {
-    "pageSize": "/Users/black/unknownServer/config/config.default.js",
-    "serverUrl": "/Users/black/unknownServer/config/config.default.js"
+    "pageSize": "/Users/black/Desktop/agricultural/config/config.default.js",
+    "serverUrl": "/Users/black/Desktop/agricultural/config/config.default.js"
   },
   "alinode": {
-    "appid": "/Users/black/unknownServer/config/config.default.js",
-    "secret": "/Users/black/unknownServer/config/config.default.js",
-    "error_log": "/Users/black/unknownServer/config/config.default.js",
-    "packages": "/Users/black/unknownServer/config/config.default.js",
-    "enable": "/Users/black/unknownServer/node_modules/egg-alinode/config/config.default.js",
-    "server": "/Users/black/unknownServer/node_modules/egg-alinode/config/config.default.js",
-    "cmddir": "/Users/black/unknownServer/node_modules/egg-alinode/config/config.default.js",
-    "logdir": "/Users/black/unknownServer/node_modules/egg-alinode/config/config.default.js",
-    "reconnectDelay": "/Users/black/unknownServer/node_modules/egg-alinode/config/config.default.js",
-    "heartbeatInterval": "/Users/black/unknownServer/node_modules/egg-alinode/config/config.default.js",
-    "reportInterval": "/Users/black/unknownServer/node_modules/egg-alinode/config/config.default.js"
+    "appid": "/Users/black/Desktop/agricultural/config/config.default.js",
+    "secret": "/Users/black/Desktop/agricultural/config/config.default.js",
+    "error_log": "/Users/black/Desktop/agricultural/config/config.default.js",
+    "packages": "/Users/black/Desktop/agricultural/config/config.default.js",
+    "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
+    "server": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
+    "cmddir": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
+    "logdir": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
+    "reconnectDelay": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
+    "heartbeatInterval": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
+    "reportInterval": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js"
   },
   "io": {
     "init": {
-      "wsEngine": "/Users/black/unknownServer/config/config.default.js"
+      "wsEngine": "/Users/black/Desktop/agricultural/config/config.default.js"
     },
     "namespace": {
       "/": {
-        "connectionMiddleware": "/Users/black/unknownServer/node_modules/egg-socket.io/config/config.default.js",
-        "packetMiddleware": "/Users/black/unknownServer/node_modules/egg-socket.io/config/config.default.js"
+        "connectionMiddleware": "/Users/black/Desktop/agricultural/node_modules/_egg-socket.io@4.0.8@egg-socket.io/config/config.default.js",
+        "packetMiddleware": "/Users/black/Desktop/agricultural/node_modules/_egg-socket.io@4.0.8@egg-socket.io/config/config.default.js"
       }
     }
   },
   "session": {
-    "maxAge": "/Users/black/unknownServer/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/black/unknownServer/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/black/unknownServer/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/black/unknownServer/node_modules/egg-session/config/config.default.js"
+    "maxAge": "/Users/black/Desktop/agricultural/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/black/Desktop/agricultural/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/black/Desktop/agricultural/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/black/Desktop/agricultural/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
   },
   "security": {
-    "domainWhiteList": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
     "csrf": {
-      "enable": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "useSession": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "cookieName": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "sessionName": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "headerName": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "bodyName": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "queryName": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "xframe": {
-      "enable": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "value": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/black/unknownServer/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "maxAge": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "value": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "value": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "policy": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js",
-      "checkAddress": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+      "ipBlackList": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+      "checkAddress": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
     }
   },
   "helper": {
-    "shtml": "/Users/black/unknownServer/node_modules/egg-security/config/config.default.js"
+    "shtml": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/black/unknownServer/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/black/unknownServer/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/black/unknownServer/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "/Users/black/Desktop/agricultural/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/black/Desktop/agricultural/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/black/Desktop/agricultural/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/black/unknownServer/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/black/unknownServer/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/black/Desktop/agricultural/node_modules/_egg-onerror@2.0.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/black/Desktop/agricultural/node_modules/_egg-onerror@2.0.0@egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/black/unknownServer/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/black/unknownServer/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/black/unknownServer/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/black/unknownServer/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/black/unknownServer/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/black/Desktop/agricultural/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "dirs": "/Users/black/Desktop/agricultural/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "queryField": "/Users/black/Desktop/agricultural/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/black/Desktop/agricultural/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/black/Desktop/agricultural/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/black/unknownServer/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/black/Desktop/agricultural/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js",
     "eventSources": {
-      "default": "/Users/black/unknownServer/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/black/unknownServer/node_modules/egg-watcher/config/config.default.js"
+      "default": "/Users/black/Desktop/agricultural/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js",
+      "development": "/Users/black/Desktop/agricultural/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "/Users/black/unknownServer/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/black/unknownServer/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/black/unknownServer/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/black/unknownServer/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/black/unknownServer/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/black/unknownServer/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/black/unknownServer/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/black/unknownServer/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/black/unknownServer/node_modules/egg-multipart/config/config.default.js"
-  },
-  "development": {
-    "watchDirs": "/Users/black/unknownServer/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/black/unknownServer/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/black/unknownServer/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/black/unknownServer/node_modules/egg-development/config/config.default.js",
-    "overrideDefault": "/Users/black/unknownServer/node_modules/egg-development/config/config.default.js"
+    "autoFields": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "files": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/black/unknownServer/node_modules/egg-schedule/config/config.default.js",
-      "file": "/Users/black/unknownServer/node_modules/egg-schedule/config/config.default.js"
+      "consoleLevel": "/Users/black/Desktop/agricultural/node_modules/_egg-schedule@3.3.0@egg-schedule/config/config.default.js",
+      "file": "/Users/black/Desktop/agricultural/node_modules/_egg-schedule@3.3.0@egg-schedule/config/config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/black/unknownServer/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/black/unknownServer/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/black/unknownServer/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/black/unknownServer/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/black/unknownServer/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/black/unknownServer/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/black/unknownServer/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/black/unknownServer/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/black/unknownServer/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/black/unknownServer/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/black/unknownServer/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/black/unknownServer/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/black/unknownServer/node_modules/egg-static/config/config.default.js"
+    "prefix": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "dir": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "dynamic": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "preload": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "buffer": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.prod.js",
+    "maxFiles": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
+    "maxAge": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.prod.js"
   },
   "view": {
-    "root": "/Users/black/unknownServer/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/black/unknownServer/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/black/unknownServer/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/black/unknownServer/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/black/unknownServer/node_modules/egg-view/config/config.default.js"
+    "root": "/Users/black/Desktop/agricultural/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "cache": "/Users/black/Desktop/agricultural/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "defaultExtension": "/Users/black/Desktop/agricultural/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/black/Desktop/agricultural/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
+    "mapping": "/Users/black/Desktop/agricultural/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js"
   },
-  "env": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-  "name": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
+  "env": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+  "name": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+  "proxy": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "version": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "description": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "private": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
+    "name": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "version": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "description": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "private": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
     "dependencies": {
-      "egg": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "egg-alinode": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "egg-socket.io": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "uws": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+      "egg": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "egg-alinode": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "egg-scripts": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "egg-socket.io": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "uws": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "autod-egg": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "egg-bin": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "egg-ci": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "egg-mock": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "eslint": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "eslint-config-egg": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "webstorm-disable-index": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+      "autod": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "autod-egg": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "egg-bin": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "egg-ci": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "egg-mock": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "eslint": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "eslint-config-egg": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
     },
     "engines": {
-      "node": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+      "node": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
     },
     "scripts": {
-      "start": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "stop": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "dev": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "debug": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "test": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "test-local": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "cov": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "lint": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "ci": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "autod": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+      "start": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "stop": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "dev": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "debug": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "test": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "test-local": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "cov": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "lint": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "ci": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "autod": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
     },
     "ci": {
-      "version": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+      "version": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
     },
     "repository": {
-      "type": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "url": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+      "type": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "url": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
     },
-    "author": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "license": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+    "author": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "license": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
   },
-  "baseDir": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
+  "baseDir": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+  "HOME": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+  "rundir": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+    "ignore": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+    "bodyparser": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "notFound": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "sitefile": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "middlewares": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "httpClient": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+    "pageUrl": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "strict": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
+    "enable": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "encoding": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "formLimit": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "strict": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "depth": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+      "arrayLimit": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "depth": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
     }
   },
   "logger": {
-    "dir": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "env": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "level": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/Users/black/unknownServer/node_modules/egg/config/config.local.js"
-    },
-    "allowDebugAtProd": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+    "dir": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "encoding": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "env": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "level": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "outputJSON": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "buffer": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "appLogName": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "coreLogName": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "agentLogName": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "errorLogName": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "coreLogger": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxAge": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+      "timeout": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "maxSockets": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "maxSockets": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "logging": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+    "enable": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "logging": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
   },
-  "coreMiddleware": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
+  "coreMiddleware": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "port": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "port": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+      "hostname": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/black/unknownServer/node_modules/egg/config/config.default.js",
-    "responseTimeout": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+    "maxWaitTime": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
   },
-  "onClientError": "/Users/black/unknownServer/node_modules/egg/config/config.default.js"
+  "onClientError": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
 }

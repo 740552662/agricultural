@@ -81,10 +81,10 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
-        "default": "/Users/black/unknownServer/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/black/unknownServer/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/black/Desktop/agricultural/node_modules/_egg-watcher@3.0.0@egg-watcher/lib/event-sources/default",
+        "development": "/Users/black/Desktop/agricultural/node_modules/_egg-watcher@3.0.0@egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -98,17 +98,10 @@
       "fileExtensions": [],
       "whitelist": null
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/black/unknownServer/logs/unknownServer/egg-schedule.log"
+        "file": "/Users/black/logs/unknownServer/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -122,15 +115,16 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/black/unknownServer/app/public",
+      "dir": "/Users/black/Desktop/agricultural/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
-      "maxFiles": 1000
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 31536000
     },
     "view": {
-      "root": "/Users/black/unknownServer/app/view",
-      "cache": false,
+      "root": "/Users/black/Desktop/agricultural/app/view",
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -140,8 +134,8 @@
       "server": "wss://agentserver.node.aliyun.com:8080",
       "appid": "40998",
       "secret": "<String len: 40>",
-      "cmddir": "/Users/black/unknownServer/node_modules/commandx",
-      "logdir": "/Users/black/unknownServer/logs/alinode",
+      "cmddir": "/Users/black/Desktop/agricultural/node_modules/_commandx@1.5.1@commandx",
+      "logdir": "/Users/black/logs/alinode",
       "error_log": [
         "../logs/common-error.log",
         "../logs/egg-agent.log",
@@ -169,7 +163,7 @@
         }
       }
     },
-    "env": "local",
+    "env": "prod",
     "name": "unknownServer",
     "keys": "<String len: 32>",
     "proxy": false,
@@ -223,9 +217,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/Users/black/unknownServer",
+    "baseDir": "/Users/black/Desktop/agricultural",
     "HOME": "/Users/black",
-    "rundir": "/Users/black/unknownServer/run",
+    "rundir": "/Users/black/Desktop/agricultural/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -255,22 +249,20 @@
       }
     },
     "logger": {
-      "dir": "/Users/black/unknownServer/logs/unknownServer",
+      "dir": "/Users/black/logs/unknownServer",
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "unknownServer-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
-      "allowDebugAtProd": true,
+      "coreLogger": {},
+      "allowDebugAtProd": false,
       "type": "agent"
     },
     "httpclient": {
@@ -334,8 +326,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-session",
+      "from": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-session@3.1.0@egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -347,8 +339,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-security",
+      "from": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security",
       "version": "2.2.2"
     },
     "jsonp": {
@@ -360,8 +352,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-jsonp",
+      "from": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -373,8 +365,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-onerror",
+      "from": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-onerror@2.0.0@egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -384,8 +376,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-i18n",
+      "from": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-i18n@2.0.0@egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -395,8 +387,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-watcher",
+      "from": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-watcher@3.0.0@egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -406,24 +398,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-multipart",
+      "from": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart",
       "version": "2.0.0"
-    },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-development",
-      "version": "2.2.0"
     },
     "schedule": {
       "enable": true,
@@ -432,8 +409,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-schedule",
+      "from": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-schedule@3.3.0@egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -445,8 +422,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-logrotator",
+      "from": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -456,8 +433,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-static",
+      "from": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -467,8 +444,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/black/unknownServer/node_modules/egg/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-view",
+      "from": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-view@2.1.0@egg-view",
       "version": "2.1.0"
     },
     "alinode": {
@@ -478,8 +455,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/black/unknownServer/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-alinode",
+      "from": "/Users/black/Desktop/agricultural/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode",
       "version": "2.0.1"
     },
     "io": {
@@ -489,8 +466,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/black/unknownServer/config/plugin.js",
-      "path": "/Users/black/unknownServer/node_modules/egg-socket.io",
+      "from": "/Users/black/Desktop/agricultural/config/plugin.js",
+      "path": "/Users/black/Desktop/agricultural/node_modules/_egg-socket.io@4.0.8@egg-socket.io",
       "version": "4.0.8"
     }
   }
