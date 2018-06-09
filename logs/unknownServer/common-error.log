@@ -1,0 +1,20 @@
+2018-06-02 16:22:59,573 ERROR 9593 nodejs.ENOENTError: ENOENT: no such file or directory, open '../package.json'
+Error: ENOENT: no such file or directory, open '../package.json'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '../package.json'
+name: 'ENOENTError'
+pid: 9593
+hostname: blackdeMacBook-Air.local
+
+2018-06-02 17:28:23,563 ERROR 9994 nodejs.ENOENTError: ENOENT: no such file or directory, open '../package.json'
+Error: ENOENT: no such file or directory, open '../package.json'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '../package.json'
+name: 'ENOENTError'
+pid: 9994
+hostname: blackdeMacBook-Air.local
+
