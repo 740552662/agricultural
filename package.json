@@ -25,8 +25,8 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-unknownServer  --sticky",
-    "stop": "egg-scripts stop --title=egg-server-unknownServer",
+    "start": "egg-scripts start --daemon --title=egg-server-agricultural  --sticky",
+    "stop": "egg-scripts stop --title=egg-server-agricultural",
     "dev": "egg-bin dev  --sticky",
     "debug": "egg-bin debug",
     "test": "npm run lint -- --fix && npm run test-local",
