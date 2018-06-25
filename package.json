@@ -1,11 +1,12 @@
 {
-  "name": "unknownServer",
+  "name": "agricultural",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "dependencies": {
     "egg": "^2.2.1",
     "egg-alinode": "^2.0.1",
+    "egg-mongoose": "^3.0.0",
     "egg-scripts": "^2.5.0",
     "egg-socket.io": "^4.0.8",
     "uws": "^10.148.0"
