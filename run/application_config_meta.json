@@ -1,296 +1,316 @@
 {
-  "keys": "/Users/black/Desktop/agricultural/config/config.default.js",
-  "middleware": "/Users/black/Desktop/agricultural/config/config.default.js",
+  "keys": "/Users/black/Documents/GitHub/agricultural/config/config.default.js",
+  "middleware": "/Users/black/Documents/GitHub/agricultural/config/config.default.js",
   "news": {
-    "pageSize": "/Users/black/Desktop/agricultural/config/config.default.js",
-    "serverUrl": "/Users/black/Desktop/agricultural/config/config.default.js"
+    "pageSize": "/Users/black/Documents/GitHub/agricultural/config/config.default.js",
+    "serverUrl": "/Users/black/Documents/GitHub/agricultural/config/config.default.js"
   },
   "alinode": {
-    "appid": "/Users/black/Desktop/agricultural/config/config.default.js",
-    "secret": "/Users/black/Desktop/agricultural/config/config.default.js",
-    "error_log": "/Users/black/Desktop/agricultural/config/config.default.js",
-    "packages": "/Users/black/Desktop/agricultural/config/config.default.js",
-    "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
-    "server": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
-    "cmddir": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
-    "logdir": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
-    "reconnectDelay": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
-    "heartbeatInterval": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js",
-    "reportInterval": "/Users/black/Desktop/agricultural/node_modules/_egg-alinode@2.0.1@egg-alinode/config/config.default.js"
+    "appid": "/Users/black/Documents/GitHub/agricultural/config/config.default.js",
+    "secret": "/Users/black/Documents/GitHub/agricultural/config/config.default.js",
+    "error_log": "/Users/black/Documents/GitHub/agricultural/config/config.default.js",
+    "packages": "/Users/black/Documents/GitHub/agricultural/config/config.default.js",
+    "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-alinode/config/config.default.js",
+    "server": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-alinode/config/config.default.js",
+    "cmddir": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-alinode/config/config.default.js",
+    "logdir": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-alinode/config/config.default.js",
+    "reconnectDelay": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-alinode/config/config.default.js",
+    "heartbeatInterval": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-alinode/config/config.default.js",
+    "reportInterval": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-alinode/config/config.default.js"
+  },
+  "wechat": {
+    "appId": "/Users/black/Documents/GitHub/agricultural/config/config.default.js",
+    "appSecret": "/Users/black/Documents/GitHub/agricultural/config/config.default.js"
+  },
+  "mongoose": {
+    "url": "/Users/black/Documents/GitHub/agricultural/config/config.default.js",
+    "options": "/Users/black/Documents/GitHub/agricultural/config/config.default.js",
+    "loadModel": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-mongoose/config/config.default.js",
+    "app": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-mongoose/config/config.default.js",
+    "agent": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-mongoose/config/config.default.js"
   },
   "io": {
     "init": {
-      "wsEngine": "/Users/black/Desktop/agricultural/config/config.default.js"
+      "wsEngine": "/Users/black/Documents/GitHub/agricultural/config/config.default.js"
     },
     "namespace": {
       "/": {
-        "connectionMiddleware": "/Users/black/Desktop/agricultural/node_modules/_egg-socket.io@4.0.8@egg-socket.io/config/config.default.js",
-        "packetMiddleware": "/Users/black/Desktop/agricultural/node_modules/_egg-socket.io@4.0.8@egg-socket.io/config/config.default.js"
+        "connectionMiddleware": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-socket.io/config/config.default.js",
+        "packetMiddleware": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-socket.io/config/config.default.js"
       }
     }
   },
   "session": {
-    "maxAge": "/Users/black/Desktop/agricultural/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "key": "/Users/black/Desktop/agricultural/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "httpOnly": "/Users/black/Desktop/agricultural/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
-    "encrypt": "/Users/black/Desktop/agricultural/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+    "maxAge": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-session/config/config.default.js"
   },
   "security": {
-    "domainWhiteList": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
     "csrf": {
-      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "useSession": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "cookieName": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "sessionName": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "headerName": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "bodyName": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "queryName": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+      "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
     },
     "xframe": {
-      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "value": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+      "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "maxAge": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+      "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+      "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+      "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+      "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+      "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
     },
     "referrerPolicy": {
-      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "value": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+      "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "value": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+      "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "policy": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+      "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js",
-      "checkAddress": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+      "ipBlackList": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
     }
   },
   "helper": {
-    "shtml": "/Users/black/Desktop/agricultural/node_modules/_egg-security@2.2.2@egg-security/config/config.default.js"
+    "shtml": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/black/Desktop/agricultural/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
-    "callback": "/Users/black/Desktop/agricultural/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
-    "csrf": "/Users/black/Desktop/agricultural/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+    "limit": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/black/Desktop/agricultural/node_modules/_egg-onerror@2.0.0@egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/black/Desktop/agricultural/node_modules/_egg-onerror@2.0.0@egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/black/Desktop/agricultural/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
-    "dirs": "/Users/black/Desktop/agricultural/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
-    "queryField": "/Users/black/Desktop/agricultural/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
-    "cookieField": "/Users/black/Desktop/agricultural/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/black/Desktop/agricultural/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/black/Desktop/agricultural/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js",
+    "type": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-watcher/config/config.local.js",
     "eventSources": {
-      "default": "/Users/black/Desktop/agricultural/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js",
-      "development": "/Users/black/Desktop/agricultural/node_modules/_egg-watcher@3.0.0@egg-watcher/config/config.default.js"
+      "default": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
-    "fields": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
-    "fileSize": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
-    "files": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js",
-    "whitelist": "/Users/black/Desktop/agricultural/node_modules/_egg-multipart@2.0.0@egg-multipart/config/config.default.js"
+    "autoFields": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-multipart/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-development/config/config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "/Users/black/Desktop/agricultural/node_modules/_egg-schedule@3.3.0@egg-schedule/config/config.default.js",
-      "file": "/Users/black/Desktop/agricultural/node_modules/_egg-schedule@3.3.0@egg-schedule/config/config.default.js"
+      "consoleLevel": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-schedule/config/config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/black/Desktop/agricultural/node_modules/_egg-logrotator@3.0.3@egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
-    "dir": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
-    "dynamic": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
-    "preload": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
-    "buffer": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.prod.js",
-    "maxFiles": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.default.js",
-    "maxAge": "/Users/black/Desktop/agricultural/node_modules/_egg-static@2.1.1@egg-static/config/config.prod.js"
+    "prefix": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-static/config/config.default.js"
   },
   "view": {
-    "root": "/Users/black/Desktop/agricultural/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
-    "cache": "/Users/black/Desktop/agricultural/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
-    "defaultExtension": "/Users/black/Desktop/agricultural/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/black/Desktop/agricultural/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js",
-    "mapping": "/Users/black/Desktop/agricultural/node_modules/_egg-view@2.1.0@egg-view/config/config.default.js"
+    "root": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/black/Documents/GitHub/agricultural/node_modules/egg-view/config/config.default.js"
   },
-  "env": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-  "name": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-  "proxy": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-  "protocolHeaders": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-  "ipHeaders": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-  "hostHeaders": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+  "env": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+  "name": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "version": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "description": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "private": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "name": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "version": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "description": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "private": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
     "dependencies": {
-      "egg": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "egg-alinode": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "egg-scripts": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "egg-socket.io": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "uws": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+      "egg": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "egg-alinode": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "egg-mongoose": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "egg-socket.io": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "uws": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "autod-egg": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "egg-bin": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "egg-ci": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "egg-mock": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "eslint": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "eslint-config-egg": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "webstorm-disable-index": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+      "autod": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
     },
     "engines": {
-      "node": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+      "node": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
     },
     "scripts": {
-      "start": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "stop": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "dev": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "debug": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "test": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "test-local": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "cov": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "lint": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "ci": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "autod": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+      "start": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "stop": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "dev": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "debug": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "test": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "cov": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "lint": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "ci": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "autod": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
     },
     "ci": {
-      "version": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+      "version": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
     },
     "repository": {
-      "type": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "url": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+      "type": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "url": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
     },
-    "author": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "license": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+    "author": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "license": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
   },
-  "baseDir": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-  "HOME": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-  "rundir": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+  "baseDir": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+    "ignore": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "notFound": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "sitefile": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "middlewares": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "httpClient": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+    "bodyparser": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+    "pageUrl": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+    "/favicon.ico": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "encoding": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "formLimit": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "jsonLimit": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "strict": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "strict": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "depth": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "parameterLimit": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+      "arrayLimit": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "depth": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
     }
   },
   "logger": {
-    "dir": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "encoding": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "env": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "level": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "consoleLevel": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "outputJSON": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "buffer": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "appLogName": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "coreLogName": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "agentLogName": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "errorLogName": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "coreLogger": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "allowDebugAtProd": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+    "dir": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "env": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "level": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "dnsCacheMaxAge": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+    "enableDNSCache": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+      "timeout": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "maxSockets": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "maxFreeSockets": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+      "keepAlive": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "maxSockets": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "maxFreeSockets": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+      "keepAlive": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
     }
   },
   "meta": {
-    "enable": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "logging": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+    "enable": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "logging": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
   },
-  "coreMiddleware": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-  "workerStartTimeout": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
+  "coreMiddleware": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "port": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-      "hostname": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+      "path": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "port": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js",
-    "responseTimeout": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+    "maxWaitTime": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
   },
-  "onClientError": "/Users/black/Desktop/agricultural/node_modules/_egg@2.9.0@egg/config/config.default.js"
+  "onClientError": "/Users/black/Documents/GitHub/agricultural/node_modules/egg/config/config.default.js"
 }
