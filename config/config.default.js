@@ -19,7 +19,12 @@ module.exports = appInfo => {
       '../logs/egg-web.log',
       '../logs/agricultural-web.log',
     ],
-    packages: [ '../package.json' ],
+    packages: ['../package.json'],
+  };
+
+  config.wechat = {
+    appId: 'wxe289f0a4e047d145',
+    appSecret: 'f2b6b4a7aa57b3e3407cb43a21e3dd0d'
   };
 
   config.mongoose = {
